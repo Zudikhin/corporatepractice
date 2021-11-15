@@ -34,6 +34,7 @@ $(document).ready(function () {
             }, 2000);
         } 
     });
+
     $(".scroll_to_services").click(function(e) {
         e.preventDefault();
         if($(window).width() < 1199) {
@@ -71,6 +72,38 @@ $(document).ready(function () {
                 scrollTop: $(".contacts").offset().top - 172
             }, 2000);
         }
+    });
+
+    $(".popup_callback_close").click(function() {
+        $(".popup_callback").removeClass("active");
+        $(".back_modal").removeClass("active");
+    });
+
+    $(".back_modal").click(function() {
+        $(".popup_callback").removeClass("active");
+        $(this).removeClass("active");
+    });
+
+    $(".callback").click(function() {
+        $(".popup_callback").addClass("active");
+        $(".back_modal").addClass("active");
+    });
+
+    $(".service_list_item").click(function() {
+        $(".popup_callback").addClass("active");
+        $(".back_modal").addClass("active");
+    });
+
+    $(".header_dropdown_close").click(function() {
+        $(".header_dropdown").removeClass("active");
+    });
+
+    $(".header_dropdown ul li a").click(function() {
+        $(".header_dropdown").removeClass("active");
+    });
+
+    $(".header_content_mobile_burger").click(function() {
+        $(".header_dropdown").addClass("active");
     });
 
 });
