@@ -585,6 +585,15 @@ body {
   line-height: 30px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
+}
+
+.main_block_info h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .main_block_info_text {
@@ -937,13 +946,25 @@ body {
   line-height: 30px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  z-index: 2;
+  cursor: default;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .advantage h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.advantage h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .advantage_list {
@@ -1023,7 +1044,7 @@ body {
     top: 0px;
   }
   .advantage h2 {
-    font-size: 32px;
+    font-size: 34px;
     line-height: 43px;
   }
   .advantage_list {
@@ -1063,13 +1084,19 @@ body {
   line-height: 23px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .about_title span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.about_title:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .about_block_top {
@@ -1095,13 +1122,19 @@ body {
   text-align: center;
   color: #063124;
   display: none;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .about_block_top_left_title span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.about_block_top_left_title:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .about_block_top_left p {
@@ -1239,6 +1272,7 @@ body {
   text-align: center;
   color: #063124;
   margin-top: 15px;
+  text-align: justify;
 }
 
 .about_block_bottom_right h2 {
@@ -1247,13 +1281,19 @@ body {
   line-height: 21px;
   text-align: center;
   color: #000000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .about_block_bottom_right h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.about_block_bottom_right h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .about_block_bottom_right p {
@@ -1262,6 +1302,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #000000;
+  text-align: justify;
 }
 
 .about_block_bottom_right p span {
@@ -1476,13 +1517,19 @@ body {
   line-height: 23px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .reviews h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.reviews h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .reviews p {
@@ -1543,8 +1590,12 @@ body {
     font-size: 16px;
     line-height: 24px;
   }
+  .reviews_list {
+    margin-top: 18px;
+  }
   .reviews_list_item {
-    width: calc(25% - 22.5px);
+    width: calc(25% - 12px);
+    margin-top: 12px;
   }
 }
 
@@ -1575,20 +1626,23 @@ body {
   line-height: 30px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .independence h2 a {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
 }
 
 .independence h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.independence h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .independence_badge {
@@ -1765,6 +1819,41 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .independence_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .independence_badge {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .independence_title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .independence_badge {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}
+
 .team {
   position: relative;
   margin-top: 60px;
@@ -1776,13 +1865,19 @@ body {
   line-height: 23px;
   text-align: center;
   color: #063124;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 .team h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.team h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .team_block_list_item {
@@ -1809,13 +1904,19 @@ body {
   line-height: 24px;
   text-align: center;
   margin-top: 15px;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .team_block_list_item h4 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.team_block_list_item h4:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .team_block_list_item p {
@@ -1934,13 +2035,19 @@ body {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .numbers h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.numbers h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .numbers_block {
@@ -1979,6 +2086,15 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #063124;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.numbers_block_item h4:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .numbers_block_item p {
@@ -2063,13 +2179,19 @@ body {
   line-height: 30px;
   text-align: center;
   color: #063124;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .service h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.service h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .service_text {
@@ -2235,6 +2357,9 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .service {
+    margin-top: 40px;
+  }
   .service h2 {
     font-size: 32px;
     line-height: 43px;
@@ -2350,13 +2475,19 @@ body {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .client h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.client h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .client_list {
@@ -2471,12 +2602,17 @@ body {
     font-size: 32px;
     line-height: 43px;
     text-align: center;
+    cursor: default;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
   }
   .map h2 span {
-    background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-    background: linear-gradient(to left, #62FFEB, #60C9C6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #38e1df;
+  }
+  .map h2:hover {
+    color: #38e1df;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
   }
   .map_img {
     margin-top: 30px;
@@ -2518,13 +2654,19 @@ body {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .certificate h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.certificate h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .certificate_list {
@@ -2605,13 +2747,19 @@ body {
   line-height: 30px;
   text-align: center;
   color: #063124;
+  cursor: default;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .video h2 span {
-  background: -webkit-gradient(linear, right top, left top, from(#62FFEB), to(#60C9C6));
-  background: linear-gradient(to left, #62FFEB, #60C9C6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38e1df;
+}
+
+.video h2:hover {
+  color: #38e1df;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .video_block_item {
