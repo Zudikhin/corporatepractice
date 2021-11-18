@@ -9,6 +9,40 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: 0}, 1000);
     });
 
+    $('.certificate_list').slick({
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        dots: false,
+        fade: false,
+        arrows: true,
+        prevArrow: $('.certificate_prev'),
+        nextArrow: $('.certificate_next'),
+        responsive: [
+            {
+                breakpoint: 1500,
+                settings: {
+                  slidesToShow: 5,
+                  slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+            }
+          ]
+    });
+
     $(".scroll_to_home").click(function(e) {
         e.preventDefault();
         if($(window).width() < 1199) {
