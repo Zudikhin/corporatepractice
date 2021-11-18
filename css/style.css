@@ -281,20 +281,14 @@ body {
   width: 20px;
 }
 
-.header_content_mobile_mid_yandex {
-  margin-top: 12px;
-}
-
 .header_content_mobile_mid_yandex img {
   width: 70px;
-}
-
-.header_content_mobile_mid_zoon {
-  margin-top: 10px;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .header_content_mobile_mid_zoon img {
-  width: 70px;
+  width: 65px;
 }
 
 .header_content_mobile_burger {
