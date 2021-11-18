@@ -252,6 +252,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #063124;
+  margin-top: 10px;
 }
 
 .header_content_mobile_mid_list {
@@ -278,6 +279,22 @@ body {
 
 .header_content_mobile_mid_list ul li button img {
   width: 20px;
+}
+
+.header_content_mobile_mid_yandex {
+  margin-top: 12px;
+}
+
+.header_content_mobile_mid_yandex img {
+  width: 70px;
+}
+
+.header_content_mobile_mid_zoon {
+  margin-top: 10px;
+}
+
+.header_content_mobile_mid_zoon img {
+  width: 70px;
 }
 
 .header_content_mobile_burger {
@@ -1099,6 +1116,18 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .advantage {
+    margin-top: 100px;
+  }
+  .advantage h2 {
+    font-size: 38px;
+  }
+  .advantage_list {
+    margin-top: 30px;
+  }
+}
+
 .about {
   position: relative;
   margin-top: 60px;
@@ -1504,12 +1533,15 @@ body {
 }
 
 @media (min-width: 1900px) {
+  .about {
+    margin-top: 70px;
+  }
   .about_block_top_left {
     max-width: 677px;
   }
   .about_block_top_left_title {
-    font-size: 42px;
-    line-height: 49px;
+    font-size: 31px;
+    line-height: 38px;
   }
   .about_block_top_left_info p {
     font-size: 36px;
@@ -1538,8 +1570,8 @@ body {
     line-height: 28px;
   }
   .about_block_bottom_right h2 {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 31px;
+    line-height: 38px;
   }
 }
 
@@ -1645,14 +1677,14 @@ body {
 
 @media (min-width: 1920px) {
   .reviews {
-    margin-top: 80px;
+    margin-top: 123px;
   }
   .reviews h2 {
-    font-size: 42px;
-    line-height: 49px;
+    font-size: 38px;
+    line-height: 42px;
   }
   .reviews p {
-    margin-top: 38px;
+    margin-top: 30px;
   }
   .reviews_list {
     margin-top: 30px;
@@ -1931,8 +1963,32 @@ body {
     margin-top: 100px;
   }
   .independence h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .independence_list {
+    margin-top: 30px;
+  }
+  .independence_list_item {
+    padding: 20px;
+  }
+  .independence_list_item_body_dignity_title {
+    font-size: 17px;
+  }
+  .independence_list_item_body_dignity_text {
+    font-size: 19px;
+  }
+  .independence_list_item_body_limitations_title {
+    font-size: 17px;
+  }
+  .independence_list_item_body_limitations_text {
+    font-size: 19px;
+  }
+  .independence_list_item_body_coment_title {
+    font-size: 17px;
+  }
+  .independence_list_item_body_coment_text {
+    font-size: 19px;
   }
 }
 
@@ -2129,8 +2185,11 @@ body {
   .team {
     margin-top: 100px;
   }
+  .team h2 {
+    font-size: 38px;
+  }
   .team_block_list_item {
-    margin-top: 70px;
+    margin-top: 60px;
   }
   .team_block_list_item p {
     font-size: 18px;
@@ -2271,6 +2330,9 @@ body {
 @media (min-width: 1900px) {
   .numbers {
     margin-top: 100px;
+  }
+  .numbers h2 {
+    font-size: 38px;
   }
   .numbers_block_item {
     margin-top: 60px;
@@ -2497,7 +2559,7 @@ body {
     position: relative;
     border-radius: 10px;
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
   }
   .service_form_title {
     display: -webkit-box;
@@ -2555,17 +2617,17 @@ body {
 
 @media (min-width: 1900px) {
   .service {
-    margin-top: 130px;
+    margin-top: 100px;
   }
   .service h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 35px;
+    line-height: 42px;
   }
   .service_text {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .service_list {
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .service_list_item p {
     font-size: 18px;
@@ -2702,9 +2764,15 @@ body {
 }
 
 @media (min-width: 1900px) {
+  .client {
+    margin-top: 100px;
+  }
   .client h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .client_list {
+    margin-top: 30px;
   }
 }
 
@@ -2757,8 +2825,8 @@ body {
     margin-top: 100px;
   }
   .map h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 38px;
+    line-height: 46px;
   }
   .map_img {
     margin-top: 60px;
@@ -2923,11 +2991,17 @@ body {
     margin-top: 100px;
   }
   .certificate h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 38px;
+    line-height: 46px;
   }
   .certificate_list {
-    margin-top: 30px;
+    margin-top: 60px;
+  }
+  .certificate_prev {
+    top: 240px;
+  }
+  .certificate_next {
+    top: 240px;
   }
 }
 
@@ -3011,9 +3085,12 @@ body {
   .video {
     margin-top: 100px;
   }
+  .video_block {
+    margin-top: 45px;
+  }
   .video h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 38px;
+    line-height: 46px;
   }
 }
 
@@ -3259,6 +3336,9 @@ body {
     right: 0px;
     width: 414px;
   }
+  .contacts_block_map_form_img {
+    background-position: 50% -20px;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -3312,8 +3392,8 @@ body {
     margin-top: 100px;
   }
   .contacts h2 {
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 38px;
+    line-height: 46px;
   }
   .contacts_block {
     margin-top: 60px;
