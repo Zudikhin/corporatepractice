@@ -751,6 +751,7 @@ body {
   height: 331px;
   background: url(../img/main/2.jpg);
   background-size: cover;
+  background-position: 50% -20px;
 }
 
 .main_block_form form p {
@@ -1112,7 +1113,7 @@ body {
 
 @media (min-width: 1920px) {
   .advantage {
-    margin-top: 100px;
+    margin-top: 60px;
   }
   .advantage h2 {
     font-size: 38px;
@@ -2329,7 +2330,7 @@ body {
     font-size: 38px;
   }
   .numbers_block_item {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .numbers_block_item span {
     font-size: 96px;
@@ -2798,7 +2799,7 @@ body {
     transition: all 0.3s linear;
   }
   .map_img {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .map_img img {
     width: 100%;
@@ -2810,7 +2811,7 @@ body {
     margin-top: 60px;
   }
   .map_img {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -2823,7 +2824,7 @@ body {
     line-height: 46px;
   }
   .map_img {
-    margin-top: 60px;
+    margin-top: 30px;
   }
 }
 
@@ -3083,8 +3084,8 @@ body {
     margin-top: 45px;
   }
   .video h2 {
-    font-size: 38px;
-    line-height: 46px;
+    font-size: 36px;
+    line-height: 42px;
   }
 }
 
